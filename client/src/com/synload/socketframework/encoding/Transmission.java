@@ -1,4 +1,4 @@
-package com.socketframework.encoding;
+package com.synload.socketframework.encoding;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;

@@ -12,8 +12,8 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Arrays;
 
-import com.socketframework.encoding.Transmission;
-import com.socketframework.encoding.TransmissionMessage;
+import com.synload.socketframework.encoding.Transmission;
+import com.synload.socketframework.encoding.TransmissionMessage;
 
 public class Main {
     public static void main(String[] args) {

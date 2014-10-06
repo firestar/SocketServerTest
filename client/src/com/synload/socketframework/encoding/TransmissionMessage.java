@@ -1,4 +1,4 @@
-package com.socketframework.encoding;
+package com.synload.socketframework.encoding;
 
 public class TransmissionMessage {
     public TransmissionMessage(byte[] command, Object value) {
