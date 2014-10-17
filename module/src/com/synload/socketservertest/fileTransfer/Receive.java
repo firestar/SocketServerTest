@@ -16,7 +16,7 @@ import com.synload.socketframework.events.CommandEvent;
 import com.synload.socketservertest.TestModule;
 
 public class Receive {
-    @Event
+    @Event(description="Receive file from test client!")
     public void getFile(CommandEvent e) {
         try {
             if (e.getTransmission().getCommand().length == 3) {
@@ -62,7 +62,7 @@ public class Receive {
         }
     }
 
-    @Event
+    @Event(description="Send file size from requested file!")
     public void getSize(CommandEvent e) {
         try {
             if (e.getTransmission().getCommand().length == 3) {
